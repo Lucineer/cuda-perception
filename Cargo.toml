@@ -2,7 +2,7 @@
 name = "cuda-perception"
 version = "0.1.0"
 edition = "2021"
-description = "Signal processing — filtering, feature extraction, object tracking"
+description = "Signal processing with filtering and object tracking"
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Lucineer/cuda-perception"
 readme = "README.md"
@@ -11,3 +11,4 @@ categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
+
