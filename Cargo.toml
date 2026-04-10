@@ -2,7 +2,12 @@
 name = "cuda-perception"
 version = "0.1.0"
 edition = "2021"
-description = "Perception pipeline — raw sensor data to structured understanding with filtering, classification, and scene composition"
+description = "Signal processing — filtering, feature extraction, object tracking"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/Lucineer/cuda-perception"
+readme = "README.md"
+keywords = ["ai", "fleet", "agent", "rust"]
+categories = ["science"]
 
 [dependencies]
 serde = { version = "1", features = ["derive"] }
